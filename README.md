@@ -1,6 +1,6 @@
 # Stepic_Lesson_3.6
 Pytest (pytest_addoption, request.config.getoption, options.add_experimental_option)
-
+-----------------
 Создайте GitHub-репозиторий, в котором будут лежать файлы conftest.py и test_items.py.
 Добавьте в файл conftest.py обработчик, который считывает из командной строки параметр language.
 Реализуйте в файле conftest.py логику запуска браузера с указанным языком пользователя. Браузер должен объявляться в фикстуре browser и передаваться в тест как параметр.
