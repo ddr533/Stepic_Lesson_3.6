@@ -6,7 +6,6 @@ def test_add_to_basket_button(browser):
     browser.get(link)
     time.sleep(30)
     browser.implicitly_wait(5)
-    button=browser.find_elements(By.CSS_SELECTOR, '[class="btn btn-lg btn-primary btn-add-to-basket"]')
-    assert len(button)==1, 'Кнопка не найдена'
+    assert browser.find_element(By.CSS_SELECTOR, '[class="btn btn-lg btn-primary btn-add-to-basket"]'), 'Кнопка не найдена'
 
 
